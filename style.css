@@ -1,0 +1,145 @@
+/* All pages */
+body, html {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Merriweather', serif;
+    line-height: 2;
+}
+
+/* Navigation bar all pages */
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #63768D;
+  align-items: flex-end;
+}
+
+.nav-bar {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+}
+
+.nav-bar li:not(:first-child) {
+  margin-left: 0.625rem;
+}
+
+.nav-bar li a {
+  color: #d4f6fc;
+  text-decoration: none;
+  display: block;
+  padding: 1.25rem;
+}
+
+.project-logo {
+  width: 4rem;
+  height: 4rem;
+  margin-left: 1rem;
+  border-radius: 100%;
+}
+
+.flaticon-nav {
+  font-size: 0.525rem;
+  color: #d4f6fc;
+  background-color: #63768D;
+}
+
+.flaticon-nav a {
+  color: #d4f6fc;
+}
+
+/* footer all pages */
+.footer {
+  padding-top: 1.25rem;
+  flex-shrink: 0;
+  color: #d4f6fc;
+  background: #63768D;
+  text-align: center;
+}
+
+.footer a {
+  color: #d4f6fc;
+}
+
+/* main page */
+.content {
+  flex: 1 0 auto;
+  color: #63768D;
+  background-color: #d4f6fc;
+  text-align: center;
+}
+
+.circular-my-img {
+  border-radius: 100%;
+  width: 18%;
+  padding-top: 2rem;
+  padding-bottom: 1.5rem;
+}
+
+.my-name {
+  font-size: 4.625rem;
+  /* font-size: 100% =16px=1em, 90px/16px, rem  */
+  font-family: 'Sacramento', cursive;
+  margin: 1.125rem auto 0 auto;
+}
+
+.profile-description {
+  width: 75%;
+  margin: auto;
+}
+
+hr {
+  border: dotted #cad5e3 0.375rem;
+  border-bottom: none;
+  width: 4%;
+  margin: 4.25rem auto;
+}
+
+/* MY skills */
+.flaticon {
+  font-size: 0.525rem;
+  color: #63768D;
+}
+
+.flaticon a {
+  color: #63768D;
+}
+
+.skill-row {
+  width: 75%;
+  margin: 100px auto;
+  display: flex;
+}
+
+.skill-row-right {
+  justify-content: space-between;
+}
+
+.image-right {
+  align-items: flex-end;
+}
+
+.image {
+  display: flex;
+  flex-direction: column;
+}
+
+.skill-description-left {
+  padding-left: 3.75rem;
+  text-align: left;
+}
+
+.skill-description-right {
+  padding-right: 3.75rem;
+}
+
+.image img{
+  width: 10.5rem;
+}
