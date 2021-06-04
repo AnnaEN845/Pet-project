@@ -95,6 +95,9 @@ header {
   margin: auto;
 }
 
+.main-page-link{
+  color:#63768D;
+}
 hr {
   border: dotted #cad5e3 0.375rem;
   border-bottom: none;
