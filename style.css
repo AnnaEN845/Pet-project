@@ -8,16 +8,20 @@ body {
   padding: 0;
   display: flex;
   flex-direction: column;
-  font-family: 'Merriweather', serif;
-    line-height: 2;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  line-height: 2;
 }
 
 /* Navigation bar all pages */
 header {
   display: flex;
   justify-content: space-between;
-  background-color: #63768D;
+  background-color: #868b8e;
   align-items: flex-end;
+  font-family: 'Merriweather', serif;
+  font-weight: bold;
+  color: #fff1e8;
 }
 
 .nav-bar {
@@ -32,47 +36,38 @@ header {
 }
 
 .nav-bar li a {
-  color: #d4f6fc;
+  /* font-family: 'Merriweather', serif;
+  font-weight: bold; */
+  color: #fff1e8;
   text-decoration: none;
   display: block;
   padding: 1.25rem;
 }
 
-.project-logo {
-  width: 4rem;
-  height: 4rem;
-  margin-left: 1rem;
-  border-radius: 100%;
-}
-
-.flaticon-nav {
-  font-size: 0.525rem;
-  color: #d4f6fc;
-  background-color: #63768D;
-}
-
-.flaticon-nav a {
-  color: #d4f6fc;
+.project-logo{
+  font-size: 2rem;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 /* footer all pages */
 .footer {
   padding-top: 1.25rem;
   flex-shrink: 0;
-  color: #d4f6fc;
-  background: #63768D;
+  color: #fff1e8;
+  background: #868b8e;
   text-align: center;
 }
 
 .footer a {
-  color: #d4f6fc;
+  color: #fff1e8;
 }
 
 /* main page */
 .content {
   flex: 1 0 auto;
-  color: #63768D;
-  background-color: #d4f6fc;
+  color: #868b8e;
+  background-color: #fff1e8;
   text-align: center;
 }
 
@@ -84,9 +79,10 @@ header {
 }
 
 .my-name {
-  font-size: 4.625rem;
+  font-size: 2rem;
   /* font-size: 100% =16px=1em, 90px/16px, rem  */
-  font-family: 'Sacramento', cursive;
+  /* font-family: 'Sacramento', cursive; */
+  font-family: 'Merriweather', serif;
   margin: 1.125rem auto 0 auto;
 }
 
@@ -96,10 +92,10 @@ header {
 }
 
 .main-page-link{
-  color:#63768D;
+  color:#868b8e;
 }
 hr {
-  border: dotted #cad5e3 0.375rem;
+  border: dotted #e6e7e8 0.375rem;
   border-bottom: none;
   width: 4%;
   margin: 4.25rem auto;
@@ -108,11 +104,11 @@ hr {
 /* MY skills */
 .flaticon {
   font-size: 0.525rem;
-  color: #63768D;
+  color: #868b8e;
 }
 
 .flaticon a {
-  color: #63768D;
+  color: #868b8e;
 }
 
 .skill-row {
