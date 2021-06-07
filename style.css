@@ -36,12 +36,11 @@ header {
 }
 
 .nav-bar li a {
-  /* font-family: 'Merriweather', serif;
-  font-weight: bold; */
+  font-weight: bold;
   color: #fff1e8;
   text-decoration: none;
   display: block;
-  padding: 1.25rem;
+  padding: 1rem;
 }
 
 .project-logo{
@@ -137,6 +136,7 @@ hr {
 
 .skill-description-right {
   padding-right: 3.75rem;
+  text-align: left;
 }
 
 .image img{
