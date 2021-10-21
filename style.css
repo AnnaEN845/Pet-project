@@ -94,6 +94,9 @@ header {
 .main-page-link{
   color:#868b8e;
 }
+a:hover{
+  color: blue;
+}
 hr {
   border: dotted #e6e7e8 0.375rem;
   border-bottom: none;
